@@ -6,6 +6,9 @@
   "typings": "lib/src/index.d.ts",
   "module": "lib/index.mjs",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./lib/index.mjs",
