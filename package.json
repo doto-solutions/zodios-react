@@ -1,7 +1,7 @@
 {
   "name": "@doto-solutions/zodios-react",
   "description": "React hooks for zodios",
-  "version": "12.0.1",
+  "version": "12.0.1-rc.1",
   "main": "lib/index.js",
   "typings": "lib/src/index.d.ts",
   "module": "lib/index.mjs",
