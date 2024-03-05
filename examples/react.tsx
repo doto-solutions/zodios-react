@@ -109,7 +109,9 @@ const Users = () => {
         <>
           <ul>
             {users.pages.flatMap((page) =>
-              page.map((user) => <li key={user.id}>{user.name}</li>)
+              page.pages.map((data) =>
+                data.map((user) => <li key={user.id}>{user.name}</li>)
+              )
             )}
           </ul>
           <button onClick={() => fetchNextPage()}>more</button>
