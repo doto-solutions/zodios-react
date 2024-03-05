@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "typings": "lib/src/index.d.ts",
   "module": "lib/index.mjs",
+  "private": false,
   "exports": {
     ".": {
       "import": "./lib/index.mjs",
