@@ -9,7 +9,7 @@
     ".": {
       "import": "./lib/index.mjs",
       "require": "./lib/index.js",
-      "types": "./lib/src/index.d.ts"
+      "types": "./lib/src/_tsup-dts-rollup.d.d.ts"
     },
     "./package.json": "./package.json"
   },
@@ -34,7 +34,7 @@
     "validation"
   ],
   "scripts": {
-    "prebuild": "rimraf lib",
+    "build:pre": "rimraf lib",
     "build": "tsup --experimental-dts",
     "major-rc": "npm version premajor --preid=rc",
     "minor-rc": "npm version preminor --preid=rc",
