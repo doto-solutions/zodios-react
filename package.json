@@ -13,7 +13,7 @@
     ".": {
       "import": "./lib/index.mjs",
       "require": "./lib/index.js",
-      "types": "./lib/src/_tsup-dts-rollup.d.d.ts"
+      "types": "./lib/src/index.d.ts"
     },
     "./package.json": "./package.json"
   },
