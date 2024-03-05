@@ -1,5 +1,5 @@
 {
-  "name": "@nr/zodios-react",
+  "name": "@doto-solutions/zodios-react",
   "description": "React hooks for zodios",
   "version": "12.0.0-rc.0",
   "main": "lib/index.js",
