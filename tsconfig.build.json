@@ -1,8 +1,14 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "target": "ES6",
-    "sourceMap": false
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "types": [],
+    "lib": ["ES5", "ES2019", "es2021", "dom"],
+    "outDir": "lib"
   },
   "exclude": [
     "node_modules",

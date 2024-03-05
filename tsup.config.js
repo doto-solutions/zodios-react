@@ -2,13 +2,13 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   clean: true,
-  dts: true,
+  // dts: true,
   entry: ["src/index.ts"],
   outDir: "lib",
   format: ["cjs", "esm"],
-  minify: true,
-  treeshake: true,
-  tsconfig: "tsconfig.build.json",
-  splitting: true,
+  // minify: true,
+  // treeshake: true,
+  // tsconfig: "tsconfig.build.json",
+  splitting: false,
   sourcemap: false,
 });
